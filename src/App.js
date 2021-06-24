@@ -1,18 +1,12 @@
 import React, { useState } from "react";
 import './App.css';
-import LineChart from "./Components/LineChart";
-import HeatMapChart from "./Components/HeatMapChart";
-import AreaChart from "./Components/AreaChart";
 import Navbar from './Components/Navbar';
+// eslint-disable-next-line no-unused-vars
+import { chartNames1 } from "./config";
 const App = () => {
 
 
-  const [chartNames, setChartNames] = useState([
-    { id: 1, name: "Pie Chart", componentName: <LineChart /> },
-    { id: 2, name: "Bar Chart", componentName: <HeatMapChart /> },
-    { id: 3, name: "Line Chart", componentName: <AreaChart /> }
-
-  ]);
+  const [chartNames, setChartNames] = useState(chartNames1);
 
   const [isSort, setIsSort] = useState(true);
 
