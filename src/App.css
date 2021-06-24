@@ -1,0 +1,58 @@
+.App {
+  width: 100%;
+  text-align: center;
+}
+
+/* .head {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+} */
+
+.head button {
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+/* .navbar ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+.App ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+  list-style: none;
+}
+.head li:last-child button {
+  list-style-type: none;
+  display: block;
+}
+
+.navbar li img {
+  width: 200px;
+}
+
+.head li {
+  display: inline-block;
+  list-style-type: none;
+}
+.footer {
+  text-align: center;
+  margin-top: 90px;
+}
+
+/* .username {
+  margin-right: 20px;
+} */
+.graphblock {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0px 20px;
+}
